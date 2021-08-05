@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <title>Airbnb</title>
+</head>
+
+<body>
+<!--Section-1 header image start-->
+  <section id="top-header" style="background-image: url(./Images/header-image.jpg);">
+      <!--Top header start-->
+    <div class="container top-header-padding">
+      <div class="row desktop-view">
+        <!--main logo start-->
+        <div class="col-3">
+          <img src="./Images/logo.png" alt="" class="logo">
+        </div>
+        <!--main logo end-->
+        <!--links start-->
+        <div class="col-5">
+          <nav class="nav airbnb-navigation">
+            <a class="nav-link active" href="#">Places to stay</a>
+            <a class="nav-link" href="#">Experiences</a>
+            <a class="nav-link" href="#">Other Experiences</a>
+          </nav>
+        </div>
+        <!--links end-->
+        <!--login tab end-->
+        <div class="col-4 login-airbnb">
+          <div class="host">
+            <a href="#">Become a host</a>
+          </div>
+            <button class="icon">
+              <i class="bi bi-globe"></i>
+            </button>
+          <button class="login">
+            <i class="bi bi-list"></i>
+            <i class="bi bi-person-circle"></i>
+          </button>
+        </div>
+        <!--login tab end-->
+      </div>
+       <!--Top header end-->
+       
+       <!--search section start
+       <section class="search">
+        <form>
+          <div class="search-nav">
+            <button class="nav-item">
+              <label>Location</label>
+              <input type="text" placeholder="Where are you going">
+            </button>
+            <button class="nav-item">
+              <label>Check-in</label>
+              <input type="text" placeholder="Add Dates">
+            </button>
+            <button class="nav-item">
+              <label>Check-Out</label>
+              <input type="text" placeholder="Add Dates">
+            </button>
+            <button class="nav-item">
+              <label>Guests</label>
+              <input type="text" placeholder="Add Guests">
+              <i class="bi bi-search"></i>
+            </button>
+           </div>
+        </form>
+      </section>-->
+
+      <!--Design new button search tab-->
+
+      <section class="search">
+        <div class="search-nav">
+          <form action="post">
+            <div class="search-item search-item-before input-group">
+              <label for="location">Location</label>
+              <input type="text" id="location" placeholder="Where are you going? ">
+            </div>
+            <div class="search-item search-item-before input-group">
+              <label for="check-in">Check-in</label>
+              <input type="text" id="check-in" placeholder="Add Dates ">
+            </div>
+            <div class="search-item search-item-before input-group">
+              <label for="check-out">Check-out</label>
+              <input type="text" id="check-out" placeholder="Add Dates">
+            </div>
+            <div class="search-item input-group">
+              <label for="guests">Guests</label>
+              <input type="text" id="guests" placeholder="Add Guests">
+            </div>
+            <div class="search-item input-group">
+              <button type="submit" ><i class="bi bi-search"></i></button>
+            </div>
+          </form>
+        </div>
+      </section>
+       <!--Design new button search tab-->
+      <!--Flexible section start-->
+      <section class="flexible">
+        <p class="text-flexible">
+          Not sure where to go ? Perfect.
+        </p>
+        <a href="#" class="flexible-button">
+         <span> I'm Flexible </span>
+        </a>
+      </section>
+      <!--Flexible section end-->
+   
+    <!--search section end-->
+    </div>
+  </section>
+<!--Section-1 header image end-->
+<!--explore near by start-->
+  <div class="container explore-section pt-5">
+    <p class="heading">
+      Explore Nearby
+    </p>
+    <!-- 1st row explore start-->
+    <div class="row explore">
+      <div class="col-3">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Images/Genoa-drive-explore.png" alt="Genoa-drive-explore" class="explore">
+          </div>
+          <div class="col-9">
+            <p class="heading-explore">
+              Genona
+            </p>
+            <span class="detail">
+              2 hour driveway
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Images/Genoa-drive-explore.png" alt="Genoa-drive-explore" class="explore">
+          </div>
+          <div class="col-9">
+            <p class="heading-explore">
+              Genona
+            </p>
+            <span class="detail">
+              2 hour driveway
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Images/Genoa-drive-explore.png" alt="Genoa-drive-explore" class="explore">
+          </div>
+          <div class="col-9">
+            <p class="heading-explore">
+              Genona
+            </p>
+            <span class="detail">
+              2 hour driveway
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Images/Genoa-drive-explore.png" alt="Genoa-drive-explore" class="explore">
+          </div>
+          <div class="col-9">
+            <p class="heading-explore">
+              Genona
+            </p>
+            <span class="detail">
+              2 hour driveway
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 1st row explore end-->
+     <!-- 2nd row explore start-->
+     <div class="row explore pt-4">
+      <div class="col-3">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Images/Genoa-drive-explore.png" alt="Genoa-drive-explore" class="explore">
+          </div>
+          <div class="col-9">
+            <p class="heading-explore">
+              Genona
+            </p>
+            <span class="detail">
+              2 hour driveway
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Images/Genoa-drive-explore.png" alt="Genoa-drive-explore" class="explore">
+          </div>
+          <div class="col-9">
+            <p class="heading-explore">
+              Genona
+            </p>
+            <span class="detail">
+              2 hour driveway
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Images/Genoa-drive-explore.png" alt="Genoa-drive-explore" class="explore">
+          </div>
+          <div class="col-9">
+            <p class="heading-explore">
+              Genona
+            </p>
+            <span class="detail">
+              2 hour driveway
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Images/Genoa-drive-explore.png" alt="Genoa-drive-explore" class="explore">
+          </div>
+          <div class="col-9">
+            <p class="heading-explore">
+              Genona
+            </p>
+            <span class="detail">
+              2 hour driveway
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 2nd row explore end-->
+  </div>
+<!--explore near by end-->
+
+<!--Live anywhere start-->
+<div class="container liveanywhere pt-5">
+  <p class="heading">
+    Live anywhere
+  </p>
+  <div class="row ">
+    <div class="row">
+      <div class="col-3">
+          <div class="place-to-live">
+            <img src="./Images/outdoor-gateways.jpg" alt="outdoor-gateways" class="place-image">
+            <p class="heading-liveanywhere">
+              Outdoor gateways
+            </p>
+          </div>
+      </div>
+      <div class="col-3">
+          <div class="place-to-live">
+            <img src="./Images/outdoor-gateways.jpg" alt="outdoor-gateways" class="place-image">
+            <p class="heading-liveanywhere">
+              Unique stays
+            </p>
+          </div>
+      </div>
+      <div class="col-3">
+          <div class="place-to-live">
+            <img src="./Images/outdoor-gateways.jpg" alt="outdoor-gateways" class="place-image">
+            <p class="heading-liveanywhere">
+              Entire homes
+            </p>
+          </div>
+      </div>
+      <div class="col-3">
+          <div class="place-to-live">
+            <img src="./Images/outdoor-gateways.jpg" alt="outdoor-gateways" class="place-image">
+            <p class="heading-liveanywhere">
+              Pets allowed
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--live anywhere end-->
+
+<!--Greatest outdoors start-->
+  <div class="container outdoor pt-5">
+    <div class="outdoor-image" >
+      <img src="https://a0.muscache.com/im/pictures/4602a952-afa0-46a6-b08a-24e67e958309.jpg?im_w=1440" alt="outdoor-image">
+    </div>
+    <div class="outddor-left">
+      <p class="outdoor-heading">
+        The Greatest <br> Outdoors
+      </p>
+      <span class="outdoor-details">
+        Whishlists curated by Airbnb
+      </span>
+      <a href="#" class="outdoor-link">
+        Get Inspired
+      </a>
+    </div>
+  </div>
+<!--Greatest outdoors end-->
+
+<!--Discover experiences start-->
+  <div class="container experiences-discover pt-5">
+    <div class="row discover">
+      <div class="col-4">
+        <div class="image-discover">
+          <img src="./Images/outdoor-collection.jpg" alt="outdoor-experience">
+        </div>
+        <div class="experience-heading">
+          <p class="discover-heading">
+            Outdoor Collection<br><span class="discover-details">
+              Experiences that immerse you in nature.
+            </span>
+          </p>
+          
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="image-discover">
+          <img src="./Images/outdoor-collection.jpg" alt="outdoor-experience">
+        </div>
+        <div class="experience-heading">
+          <p class="discover-heading">
+            Outdoor Collection<br><span class="discover-details">
+              Experiences that immerse you in nature.
+            </span>
+          </p>
+          
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="image-discover">
+          <img src="./Images/outdoor-collection.jpg" alt="outdoor-experience">
+        </div>
+        <div class="experience-heading">
+          <p class="discover-heading">
+            Outdoor Collection<br><span class="discover-details">
+              Experiences that immerse you in nature.
+            </span>
+          </p>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<!--Discover experience end-->
+<!--hosting section start-->
+  <div class="container hosting pt-5">
+    <div class="row">
+      <div class="col ">
+        <div class="hosting-images">
+          <img src="./Images/hosting.jpg" alt="hosting">
+        </div>
+        <div class="hosting-text text-white">
+          <p class="hosting-text-inner">
+            Try hosting
+          </p>
+          <span class="hosting-details">
+            Earn extra income and unlock new opportunities by sharing your space.
+          </span>
+          <button class="hosting-button">
+            Learn more
+          </button>          
+        </div>
+      </div>
+    </div>
+  </div>
+<!--hosting section end-->
+
+<!--Footer section start-->
+<footer class="mt-4 pt-5">  
+  <div class="container">
+    <!--Footer links start-->
+    <div class="row footer-home">
+      <div class="col-3">
+        <h3> About</h3>
+        <div class="footer-links">
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <h3>Community</h3>
+        <div class="footer-links">
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <h3>Host</h3>
+        <div class="footer-links">
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+        </div>
+      </div>
+      <div class="col-3">
+        <h3>Support</h3>
+        <div class="footer-links">
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+          <a href="#"> How Airbnb Works</a>
+        </div>
+      </div>
+    </div>
+    <!--Footer links end-->
+    <div class="footer-social">
+      <div class="row">
+        <div class="col-8">
+          <div class="footer-links-social">
+            <span> © 2021 Airbnb, Inc.</span>
+            <div class="links">
+              <i class="bi bi-dot "></i> <a href="#">  Privacy</a>
+              <i class="bi bi-dot"></i> <a href="#">  Privacy</a>
+              <i class="bi bi-dot"></i><a href="#">  Privacy</a>
+              <i class="bi bi-dot"></i> <a href="#">  Privacy</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="social-right">
+            <i class="bi bi-globe2"></i> <a href="#" class="mr-3">English</a>
+            <i class="bi bi-currency-pound"></i><a href="#" class="mr-3">GBP</a>
+            <div class="social">
+              <a href="#"><i class="bi bi-facebook mr-3"></i> </a>
+              <a href="#"><i class="bi bi-twitter mr-3"></i></a>
+              <a href="#"><i class="bi bi-instagram mr-3"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer section end-->
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
